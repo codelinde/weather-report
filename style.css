@@ -1,0 +1,111 @@
+body {
+  background-color: #878585;
+}
+
+.cold {
+  background-color: #BD80BF;
+}
+
+.cool {
+  background-color: #6598D3;
+}
+
+.mild {
+  background-color: #5A995B;
+}
+
+.warm {
+  background-color: #D89552;
+}
+
+.hot {
+  background-color: #CE4848;
+}
+
+h1 {
+  color: #e4e4e4;
+  opacity: 0.8;
+  font-family: "Rubik", sans-serif;
+  font-size: 50px;
+  padding-top: 30px;
+}
+
+i {
+  padding: 0px;
+  margin: 0px;
+}
+
+.subtitle {
+  color: #000;
+  opacity: 0.4;
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.description {
+  color: #000;
+  opacity: 0.45;
+  font-family: "Work Sans", sans-serif;
+  font-size: 28px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  text-transform: none;
+}
+
+.weather-icon {
+  padding-top: 0px;
+  padding-bottom: 20px;
+  font-size: 120px;
+  color: #E4E4E4;
+  opacity: 0.9;
+}
+
+.degrees {
+  color: #e4e4e4;
+  opacity: 0.8;
+  font-family: "Rubik", sans-serif;
+  font-size: 28px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: none;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn.outline {
+	background: none;
+  font-size: 20px;
+	padding: 12px 22px;
+}
+
+.btn-primary.outline {
+	border: 2px solid #fff;
+	color: #fff;
+  opacity: 0.8;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color: #000;
+	border-color: #000;
+  opacity: 0.5;
+  -webkit-transition: 0.2s;
+   transition: 0.2s
+}
+
+.btn-primary.outline:active, .btn-primary.outline.active {
+  border: 2px solid #fff;
+	color: #fff;
+  opacity: 0.8;
+	box-shadow: none;
+}
